@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: myown-conversation-linebot
+  host: myown-conversation-linebot
+  disk_quota: 1024M
+  services:
+  - kmasash1-ios-conversation
+  - myown-conversation-linebot-cloudantNoSQLDB
