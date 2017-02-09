@@ -17,8 +17,6 @@
         "node-red-contrib-ibmpush":"0.x",
         "node-red-contrib-bluemix-hdfs":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x",
-        "jpeg-js":"0.2.0", 
-        "node-jpeg":"2.0.0",
         "fs":"0.0.1-security"
     },
     "scripts": {
