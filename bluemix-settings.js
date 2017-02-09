@@ -1,3 +1,4 @@
+/*eslint-env node */
 /**
  * Copyright 2014, 2016 IBM Corp.
  *
@@ -50,7 +51,10 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-    	crypto:require('crypto')
+    	crypto:require('crypto'),
+    	jpeg:require('jpeg-js'), //Add by myself
+    	//Jpeg:require('node-jpeg') // Add by myself
+    	fs:require('fs')
     },
 
     storageModule: require("./couchstorage")
