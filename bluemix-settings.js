@@ -52,7 +52,6 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	crypto:require('crypto'),
-    	underscore:require('underscore'),
     	personalityText:require('personality-text-summary')
     },
 
