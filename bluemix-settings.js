@@ -53,10 +53,7 @@ var settings = module.exports = {
     functionGlobalContext: {
     	crypto:require('crypto'),
     	underscore:require('underscore'),
-    	personalityText:require('personality-text-summary'),
-    	//jpeg:require('jpeg-js'), //Add by myself
-    	//Jpeg:require('node-jpeg') // Add by myself
-    	fs:require('fs')
+    	personalityText:require('personality-text-summary')
     },
 
     storageModule: require("./couchstorage")
