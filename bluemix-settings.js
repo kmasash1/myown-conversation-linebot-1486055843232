@@ -52,7 +52,7 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	crypto:require('crypto'),
-    	personality:require('personality-text-summary'),
+    	personality-text-summary:require('personality-text-summary'),
     	//jpeg:require('jpeg-js'), //Add by myself
     	//Jpeg:require('node-jpeg') // Add by myself
     	fs:require('fs')
