@@ -18,6 +18,7 @@
         "node-red-contrib-bluemix-hdfs":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x",
         "fs":"0.0.1-security",
+        "underscore": "^1.8.3",
         "personality-text-summary":"2.1.2"
     },
     "scripts": {
