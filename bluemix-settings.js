@@ -52,6 +52,7 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	crypto:require('crypto'),
+    	geolib"geolib"
     	personalityText:require('personality-text-summary')
     },
 
