@@ -52,8 +52,7 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	crypto:require('crypto'),
-    	geolib:require('geolib'),
-    	dropbox:require('dropbox')
+    	geolib:require('geolib')
     },
 
     storageModule: require("./couchstorage")
